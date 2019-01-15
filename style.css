@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import  url("./src/search/search.css");
-@import  url("./src/card/card.css");
+@import  url("./src/cards/card.css");
 @import  url("./src/container/cardsContainer.css");
 @import  url("./src/pagination/pagination.css");
 * { 
@@ -29,21 +29,11 @@ img {
 .description {
   overflow: hidden;
 }
-
 .page-1 span {
   background-color: #d76236;
   color: ghostwhite;
   visibility: visible;
 }
-
-.link a{
-  font-size: 16px;
-}
-
-.link p:not(:first-child) {
-  font-size: 14px;
-}
-
 @media (max-width: 1024px) {
   .page-1 span {
     visibility: visible;
@@ -62,11 +52,6 @@ img {
     height: 400px;
     text-align: center;
     overflow: hidden;
-  }
-
-  .card-container {
-    width: 300px;
-    height: 410px;
   }
 
   .pagination {

@@ -1,0 +1,38 @@
+.card-container {
+  display: inline-block;
+  margin: 10px 10px 0 10px;
+  padding-top: 20px;
+  width: 320px;
+  height: 490px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 16px black;
+  background-color: #FFAAAA;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: #666666;
+  animation: fadein 500ms;
+  -moz-animation: fadein 500ms;
+  -webkit-animation: fadein 500ms;
+  -o-animation: fadein 500ms;
+}
+
+@media (max-width: 414px) {
+  .card-container {
+    width: 300px;
+    height: 410px;
+  }
+}
+
+.link a{
+  font-size: 16px;
+}
+
+.link p:not(:first-child) {
+  font-size: 14px;
+}
