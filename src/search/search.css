@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  height: 60px;
+  background-color: #E6714D;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  position: relative;
+  width: 360px;
+  height: 36px;
+  border-radius: 2px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: inherit;
+  padding: 3px 0px 3px 30px;
+  margin: 10px 10px 10px auto;
+  border: 3px solid #888;
+}
+
+.fa-moon {
+  margin-left: 70px;
+  font-size: 40px;
+}
+
+.fa-moon:hover {
+  opacity: 0.6;
+}

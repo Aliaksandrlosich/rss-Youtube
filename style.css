@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import  url("./src/search/search.css");
+@import  url("./src/card/card.css");
+@import  url("./src/container/cardsContainer.css");
+@import  url("./src/pagination/pagination.css");
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  font-family: "Lato";
+  background-color: #FFFFFF;
+}
+
+img {
+  height: 180px;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.description {
+  overflow: hidden;
+}
+
+.page-1 span {
+  background-color: #d76236;
+  color: ghostwhite;
+  visibility: visible;
+}
+
+.link a{
+  font-size: 16px;
+}
+
+.link p:not(:first-child) {
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .page-1 span {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 414px) {
+  header {
+    text-align: center;
+    background-color: black;
+  }
+  .cards-container {
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .card-container {
+    width: 300px;
+    height: 410px;
+  }
+
+  .pagination {
+    margin-top: 470px;
+  }
+
+}
